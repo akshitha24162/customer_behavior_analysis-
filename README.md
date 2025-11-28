@@ -52,5 +52,4 @@ Build presentation deck using Gamma AI
 
 
 
-👨‍💻 About the Author
-Hey, I’m Amlan Mohanty, a Data Analyst & Content Creator. I break down complex data topics into simple, practical content that actually helps you land a job.
+
