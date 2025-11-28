@@ -1,55 +1,140 @@
 📊 Customer Behaviour Analysis – Python | SQL | Power BI
+Transforming raw data into actionable business insights using Python, SQL, and Power BI
 
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
+⭐ Overview
+This project simulates a complete corporate-grade data analytics workflow.
+Starting from loading and cleaning raw data, performing exploratory analysis, running SQL-based business queries, and finally building interactive visualizations and a presentation-ready report.
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+The goal is to demonstrate strong skills in:
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
+Data understanding
 
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
+Data preparation
 
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+SQL analysis
 
-Project Workflow
+Dashboard building
 
-🛠️ How to Use This Project
-Clone the repository
+Insight communication
 
+📁 Dataset
 
-Open Customer_Shopping_Behavior_Analysis.ipynb notebook
+The project uses a CSV dataset containing customer transactions (can be replaced with any retail/e-commerce dataset).
 
-This file contains:
+Key fields include:
+Customer_ID, Age, Gender, Location, Purchase_Amount, Product_Category, Payment_Mode, Date.
 
-Data Import
+You can replace/extend the dataset based on your use-case.
 
-Data exploration
+🛠️ Tools & Technologies
+Category	Tools
+Programming	Python (Pandas, NumPy, Matplotlib/Seaborn)
+Database	PostgreSQL / MySQL / SQL Server
+Visualization	Power BI
+Presentation	Gamma App (for PPT)
+Version Control	Git & GitHub
+🚀 Project Steps
+1. Data Loading (Python)
 
-Data cleaning
+Imported dataset using Pandas
 
-Connection to SQL Database
+Checked rows, columns, datatypes
 
-Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
+Identified nulls, duplicates, outliers
 
-Create a database in SQL
+2. Exploratory Data Analysis (EDA)
 
-Run Python code to load data into SQL database
+Summary statistics for numerical & categorical variables
 
-Open customer_behavior_sql_queries.sql
+Distribution plots (age, purchase amount, categories)
 
-Answer Business Questions using SQL Queries
+Customer segmentation (age groups, locations)
 
-Connect the SQL Database to Power BI
+Sales trends and product performance
 
-Open customer_behavior_dashboard.pbix
+3. Data Cleaning
 
-Create interactive dashboard in Power BI
+Handling missing values
 
-Create Project Report and Presentation
+Removing duplicates
 
-Create project report
+Fixing inconsistent categories
 
-Build presentation deck using Gamma AI
+Feature engineering (e.g., Month, Year, Customer_Segment)
 
+4. SQL Analysis
 
+The cleaned data was stored in PostgreSQL/MySQL/SQL Server.
+Key business queries include:
+
+Top product categories by revenue
+
+Most profitable customer segments
+
+Monthly & yearly sales trends
+
+Customer loyalty analysis
+
+Location-wise purchasing behavior
+
+5. Power BI Dashboard
+
+Built an interactive dashboard including:
+
+Total revenue & KPIs
+
+Category-wise sales
+
+Time series trends
+
+Customer segmentation insights
+
+State/City-level heatmaps
+
+Top-performing products
+
+6. Business Report
+
+A detailed report summarizing:
+
+Key findings
+
+Insights from SQL + EDA
+
+Recommendations for business decisions
+
+7. PPT Presentation (Gamma)
+
+Created a clean, modern presentation:
+
+Problem statement
+
+Approach
+
+Insights/Visualization snapshots
+
+Final recommendations
+
+📌 Results & Insights
+
+Some highlight findings (example):
+
+Customers aged 25–35 generated the highest revenue.
+
+Product Category A was the top seller.
+
+Majority of purchases came from Tier-1 cities.
+
+Weekends saw a spike in transactions.
+
+UPI/Online payments were the most preferred.
+
+These insights help businesses improve:
+
+Targeted marketing
+
+Inventory planning
+
+Customer retention strategies
 
 
